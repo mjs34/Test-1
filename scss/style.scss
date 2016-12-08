@@ -1,6 +1,8 @@
-@import "//bower_components/typi/scss/typi";
+@import "../bower_components/typi/scss/typi";
 
 $grey: dimgrey;
+
+$grey2: #373737;
 
 body  {
     background-color:$grey;
@@ -23,3 +25,6 @@ html {
   @include typi-base();
 }
 
+.head {
+    color:$grey2;
+}
